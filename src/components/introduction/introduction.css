@@ -1,0 +1,27 @@
+.introduce_1 {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  border: none;
+  border-radius: 20px;
+  padding: 6px;
+  background-color: #e7c664;
+  user-select: none;
+}
+
+.introduce_2 {
+  position: absolute;
+  top: calc(50% + 70px);
+  transform: translateY(-50%);
+  left: 5%;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  width: 600px;
+  padding: 10px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  user-select: none;
+}

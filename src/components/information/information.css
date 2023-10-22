@@ -1,0 +1,76 @@
+.infor_expand {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 50px;
+  height: 50px;
+  background-color: #e7c664;
+  border: none;
+  border-radius: 50%;
+  user-select: none;
+}
+
+.infor_expand:hover {
+  background-color: white;
+}
+
+.infor_expand_click {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 25px;
+}
+
+.spinner {
+  position: absolute;
+  top: calc(50% - 35px);
+  left: calc(50% - 35px);
+  z-index: -1;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: linear-gradient(
+    to right,
+    #e7c664 10%,
+    rgba(231, 198, 100, 0) 42%
+  );
+  animation: load3 1.4s infinite linear;
+}
+
+.spinner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  background: #e7c664;
+  border-radius: 100% 0 0 0;
+  z-index: -1;
+}
+
+.spinner:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #2c2e34;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  z-index: -1;
+  margin: auto;
+}
+
+@keyframes load3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
