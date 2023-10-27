@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/coffee429/my-portfolio/static/css/main.ed20b799.css",
+    "main.js": "/coffee429/my-portfolio/static/js/main.ebf2fd30.js",
+    "static/js/299.ad25e06a.chunk.js": "/coffee429/my-portfolio/static/js/299.ad25e06a.chunk.js",
+    "static/js/503.7518c9fe.chunk.js": "/coffee429/my-portfolio/static/js/503.7518c9fe.chunk.js",
+    "static/js/129.7ae1ad48.chunk.js": "/coffee429/my-portfolio/static/js/129.7ae1ad48.chunk.js",
+    "static/js/214.8f27a551.chunk.js": "/coffee429/my-portfolio/static/js/214.8f27a551.chunk.js",
+    "static/js/977.0ff79f62.chunk.js": "/coffee429/my-portfolio/static/js/977.0ff79f62.chunk.js",
+    "static/js/242.954826f2.chunk.js": "/coffee429/my-portfolio/static/js/242.954826f2.chunk.js",
+    "static/js/21.7973288b.chunk.js": "/coffee429/my-portfolio/static/js/21.7973288b.chunk.js",
+    "static/js/597.9288a51b.chunk.js": "/coffee429/my-portfolio/static/js/597.9288a51b.chunk.js",
+    "static/js/874.9b980472.chunk.js": "/coffee429/my-portfolio/static/js/874.9b980472.chunk.js",
+    "static/js/635.60810428.chunk.js": "/coffee429/my-portfolio/static/js/635.60810428.chunk.js",
+    "static/js/415.6f501eac.chunk.js": "/coffee429/my-portfolio/static/js/415.6f501eac.chunk.js",
+    "static/js/391.b0784a28.chunk.js": "/coffee429/my-portfolio/static/js/391.b0784a28.chunk.js",
+    "static/js/277.c17d0310.chunk.js": "/coffee429/my-portfolio/static/js/277.c17d0310.chunk.js",
+    "static/js/101.5a4081d7.chunk.js": "/coffee429/my-portfolio/static/js/101.5a4081d7.chunk.js",
+    "static/js/787.128fc6e9.chunk.js": "/coffee429/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/IT-boy.png": "/coffee429/my-portfolio/static/media/IT-boy.aa0fb5da19cb4e936ec2.png",
+    "index.html": "/coffee429/my-portfolio/index.html",
+    "main.ed20b799.css.map": "/coffee429/my-portfolio/static/css/main.ed20b799.css.map",
+    "main.ebf2fd30.js.map": "/coffee429/my-portfolio/static/js/main.ebf2fd30.js.map",
+    "787.128fc6e9.chunk.js.map": "/coffee429/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed20b799.css",
+    "static/js/main.ebf2fd30.js"
+  ]
+}
