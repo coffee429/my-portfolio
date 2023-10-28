@@ -44,7 +44,7 @@ function Main() {
     const intervalId1 = setInterval(buildRainDrop1, UtilsEnum.RAIN_STOP + 1000);
 
     const buildRainDrop2 = () => {
-      const randomX = Math.floor(Math.random() * (windowWidth - 50)) + "px";
+      const randomX = Math.floor(Math.random() * (windowWidth - 100)) + "px";
       const randomSkill = Math.floor(Math.random() * UtilsEnum.SKILL_TOTAL);
       const rainDrops = <Rain left={randomX} randomSkill={randomSkill} />;
       setRain2((prevRain) => [...prevRain, rainDrops]);

@@ -12,17 +12,8 @@ const bloom = (order: number, radius: number, total: number): ICoordinates => {
 };
 
 const move = (x: number, y: number) => {
-  return `translate(${x}px, ${y}px`;
+  return `translate(${x}rem, ${y}rem`;
 };
-
-// const getKeyEnumByValue = (enumObject: any, value: string) => {
-//   for (const key in enumObject) {
-//     if (enumObject[key] === value) {
-//       return key;
-//     }
-//   }
-//   return null;
-// };
 
 const utils = {
   bloom,

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./information.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWarning } from "@fortawesome/free-solid-svg-icons";
@@ -10,7 +10,6 @@ const Information: React.FC = () => {
 
   const onClick = () => {
     setIsViewed(!isViewed);
-    console.log(isViewed);
   };
   return (
     <div>

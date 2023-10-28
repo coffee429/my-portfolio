@@ -12,8 +12,10 @@ const IntroductionComponent = () => {
         A <span style={{ color: "#e7c664" }}>Software Developer</span>. I
         interested in technology and building cool stuffs.
       </h1>
+      <a href="">Check out my play ground</a>
     </div>
   );
 };
 
 export default IntroductionComponent;
+
