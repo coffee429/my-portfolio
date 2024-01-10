@@ -5,3 +5,150 @@
   width: 100%;
   height: 100%;
 }
+
+.introduce_1 {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  border: none;
+  border-radius: 20px;
+  padding: 6px;
+  background-color: #e7c664;
+  user-select: none;
+  word-wrap: break-word;
+}
+
+.introduce_2 {
+  position: absolute;
+  top: calc(50% + 70px);
+  transform: translateY(-50%);
+  left: 5%;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  width: 50%;
+  padding: 10px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  user-select: none;
+}
+
+a {
+  position: absolute;
+  top: calc(50% + 150px);
+  left: 5%;
+  font-style: 40px;
+  color: #e7c664;
+}
+
+@media screen and (max-width: 600px) {
+  .introduce_1 {
+    top: calc(50% + 2em);
+  }
+
+  .introduce_2 {
+    font-size: 25px;
+    top: calc(60% + 2em);
+    width: 80%;
+  }
+
+  a {
+    top: calc(75% + 2em);
+  }
+}
+
+@media screen and (min-width: 610px) and (max-width: 960px) {
+  .introduce_1 {
+    top: calc(60% + 2em);
+  }
+
+  .introduce_2 {
+    font-size: 30px;
+    top: calc(65% + 2em);
+    /* width: 80%; */
+  }
+
+  a {
+    font-size: 25px;
+    top: calc(75% + 2em);
+  }
+}
+
+.infor_expand {
+  position: absolute;
+  top: 5%;
+  right: 7%;
+  width: 50px;
+  height: 50px;
+  background-color: #e7c664;
+  border: none;
+  border-radius: 50%;
+  user-select: none;
+}
+
+.infor_expand:hover {
+  background-color: white;
+}
+
+.infor_expand_click {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 25px;
+}
+
+.spinner {
+  position: absolute;
+  top: calc(50% - 35px);
+  left: calc(50% - 35px);
+  z-index: -1;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: linear-gradient(
+    to right,
+    #e7c664 10%,
+    rgba(231, 198, 100, 0) 42%
+  );
+  animation: load3 1.4s infinite linear;
+}
+
+.spinner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  background: #e7c664;
+  border-radius: 100% 0 0 0;
+  z-index: -1;
+}
+
+.spinner:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #2c2e34;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  z-index: -1;
+  margin: auto;
+}
+
+@keyframes load3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
